@@ -13,7 +13,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["https://awaisjotablog.netlify.app","https://personal-blog-frontend-sigma.vercel.app/" ,"http://localhost:5173"], // remove trailing slash
+    origin: ["https://awaisjotablog.netlify.app","https://personal-blog-frontend-sigma.vercel.app" ,"http://localhost:5173"], // remove trailing slash
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
