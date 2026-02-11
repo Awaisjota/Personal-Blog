@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://personal-blog-swart-sigma.vercel.app/",
+  baseURL: "https://personal-blog-swart-sigma.vercel.app/api",
 });
 
 // Automatically attach token from localStorage
